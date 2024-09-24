@@ -1,0 +1,35 @@
+Database: TestDB
+Table: Table1
+Columns:
+Column: number, Type: int
+Column: Text, Type: string
+Records:
+Record: 1234,Short,
+Record: 123,Loooooooong,
+Record: 34,El Psy Kongroo,
+Record: 100,Text,
+TableEnd
+Table: Table2
+Columns:
+Column: column2, Type: string
+Column: num1, Type: int
+Column: realColumn, Type: real
+Column: colorColumn, Type: color
+Column: colorInterval, Type: colorInvl
+Records:
+Record: S,123,3.1415926535,(0;0;0),(1;1;1)-(2;2;2),
+Record: s,34,2,(255;255;255),(5;5;5)-(255;5;5),
+TableEnd
+Table: JoinedTable24.09.2024 22:45:41
+Columns:
+Column: Table1.number, Type: int
+Column: Table1.Text, Type: string
+Column: Table2.column2, Type: string
+Column: Table2.num1, Type: int
+Column: Table2.realColumn, Type: real
+Column: Table2.colorColumn, Type: color
+Column: Table2.colorInterval, Type: colorInvl
+Records:
+Record: 123,Loooooooong,S,123,3.1415926535,(0;0;0),(1;1;1)-(2;2;2),
+Record: 34,El Psy Kongroo,s,34,2,(255;255;255),(5;5;5)-(255;5;5),
+TableEnd
